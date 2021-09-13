@@ -1,0 +1,51 @@
+*{
+    outline: none;
+}
+.container{
+    width: 400px;
+    background: slategray;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+}
+.Inputs{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ul , li{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.Addbtn{
+    margin-top: 10px;
+    width: 25%;
+    height: 25px;
+    border-radius: 5px;
+    border:solid 1px gray;
+    box-shadow: 0 0 2px gray;
+    font-size: medium;
+    font-weight: 700;
+}
+.List{
+    margin: 15px , 0;
+}
+.List>li{
+    background: #d0d0d0;
+    margin-bottom: 1px;
+}
+li{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
